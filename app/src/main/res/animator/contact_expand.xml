@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Show the card expanding to include new views
+    and shrinking to hide them-->
+<set xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:state_activated="true">
+            <objectAnimator
+                android:propertyName="translationZ"
+                android:valueTo="100dp"
+                android:duration="@android:integer/config_shortAnimTime"
+                android:interpolator="@android:interpolator/fast_out_slow_in"
+                tools:targetApi="lollipop" />
+        </item>
+
+        <item>
+            <objectAnimator
+                android:propertyName="translationZ"
+                android:valueTo="0dp"
+                android:duration="@android:integer/config_shortAnimTime"
+                android:interpolator="@android:interpolator/fast_out_slow_in"
+                tools:targetApi="lollipop" />
+        </item>
+
+    </selector>
+</set>

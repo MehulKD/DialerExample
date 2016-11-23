@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Dialer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="contact_create_new">Create New Contact</string>
+    <string name="contact_send_message">Send Message</string>
+    <string name="contact_call">Call</string>
+    <string name="contact_history">History</string>
+    <string name="recents_label">Recents:</string>
+    <string name="search_bar_hint">Search for Number</string>
+</resources>
